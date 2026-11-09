@@ -1,0 +1,14 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore auto-downloaded ML models (the code downloads this automatically)
+*.task
+
+# Ignore macOS/Windows system files
+.DS_Store
+Thumbs.db
